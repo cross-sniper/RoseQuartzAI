@@ -26,8 +26,8 @@ The approach is inspired by this article and has been adapted to PyTorch: [https
 
 ## todo
 
- - [ ] GUI for modifying the data set
- - [ ] GUI for chatting with the bot
+- [ ] GUI for modifying the data set
+- [ ] GUI for chatting with the bot
 
 ## Installation
 
@@ -35,23 +35,23 @@ The approach is inspired by this article and has been adapted to PyTorch: [https
 
 You can create a virtual environment using your preferred method (e.g., `conda` or `venv`).
 
-```console
+```shell
 mkdir myproject
-$ cd myproject
-$ python3 -m venv venv
+cd myproject
+python3 -m venv venv
 ```
 
 ### Activate the Virtual Environment
 
 For Mac / Linux:
 
-```console
+```shell
 . venv/bin/activate
 ```
 
 For Windows:
 
-```console
+```shell
 venv\Scripts\activate
 ```
 
@@ -61,13 +61,13 @@ You'll need to install PyTorch, which you can do from the [official website](htt
 
 Additionally, you'll need to install the `nltk` library:
 
-```console
+```shell
 pip install nltk
 ```
 
 If you encounter an error during the first run, you may also need to install `nltk.tokenize.punkt`. Run the following command in your terminal:
 
-```console
+```shell
 $ python
 >>> import nltk
 >>> nltk.download('punkt')

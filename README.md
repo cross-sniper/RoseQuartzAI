@@ -1,11 +1,21 @@
+- [Implementation of a Contextual Chatbot in PyTorch with a Girlfriend-Like Personality](#implementation-of-a-contextual-chatbot-in-pytorch-with-a-girlfriend-like-personality)
+- [original](#original)
+  - [Features](#features)
+  - [todo](#todo)
+  - [Installation](#installation)
+    - [Create a Virtual Environment](#create-a-virtual-environment)
+    - [Activate the Virtual Environment](#activate-the-virtual-environment)
+    - [Install PyTorch and Dependencies](#install-pytorch-and-dependencies)
+  - [Usage](#usage)
+  - [Customization](#customization)
 
 # Implementation of a Contextual Chatbot in PyTorch with a Girlfriend-Like Personality
 
 This is a simple chatbot implementation in PyTorch that's designed to provide a basic understanding of chatbots. The chatbot has been customized to have a girlfriend-like personality, with affectionate and loving responses, named Rose.
 
 # original
-the original model generation, and data is by [patrickloeber](https://github.com/patrickloeber/pytorch-chatbot)
 
+the original model generation, and data is by [patrickloeber](https://github.com/patrickloeber/pytorch-chatbot)
 
 ## Features
 
@@ -13,6 +23,11 @@ the original model generation, and data is by [patrickloeber](https://github.com
 - It's easy to customize the chatbot for your own use case. Just modify the `intents.json` file with possible patterns and responses to fit your desired conversation style (see below for more info).
 
 The approach is inspired by this article and has been adapted to PyTorch: [https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077).
+
+## todo
+
+ - [ ] GUI for modifying the data set
+ - [ ] GUI for chatting with the bot
 
 ## Installation
 
@@ -62,13 +77,13 @@ $ python
 
 To train the chatbot, run:
 
-```console
+```shell
 python train.py
 ```
 
-This will create a `data.pth` file. Afterward, you can interact with the chatbot by running:
+This will create a `Rose.mdl` file. Afterward, you can interact with the chatbot by running:
 
-```console
+```shell
 python chat.py
 ```
 
